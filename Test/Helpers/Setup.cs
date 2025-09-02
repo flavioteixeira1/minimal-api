@@ -37,7 +37,7 @@ public class Setup
     });
 
         Setup.client = Setup.http.CreateClient();
-    } 
+    }   
 
     public static void ClassCleanup() {
         Setup.http.Dispose();

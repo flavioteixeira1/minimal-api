@@ -7,7 +7,23 @@ namespace Test.Mocks;
 
 public class AdministradorServicoMock : IAdministradorServico
 {
-    private static List<Administrador> administradores = new List<Administrador>();
+    private static List<Administrador> administradores = new List<Administrador>()
+    {
+        new Administrador {
+            Id = 1,
+            Email = "adm@teste.com",
+            Senha = "123456",
+            Perfil = "Adm"
+            
+        },
+        new Administrador {
+            Id = 2,
+            Email = "editor@teste.com",
+            Senha = "123456",
+            Perfil = "Editor"
+        },
+
+    };
 
     public Administrador? BuscaPorId(int id)
     {
