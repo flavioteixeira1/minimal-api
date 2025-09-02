@@ -9,6 +9,8 @@ Grant all privileges to teste user inside minimal_api database.
 
 git clone https://github.com/flavioteixeira1/minimal-api.git
 
+run dotnet-ef database update  (migrations) or
+
 populate the minimal_api database with the dump file in Teste folder: Test/minimal_api.dump.sql
 
 cd into the project path: cd minimal-api/API
