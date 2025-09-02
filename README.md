@@ -24,4 +24,4 @@ login running the post method under /administradores/login with:
 }
 
 then get the token (jwt Bearer) and click into Authorize to run your testes
-there is not method to delete users on the api - not implemented yet.
+
